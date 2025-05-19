@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="50" viewBox="0 0 200 50" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景圆形 -->
+  <circle cx="25" cy="25" r="20" fill="#1890ff" opacity="0.1"/>
+  
+  <!-- 转换图标 -->
+  <path d="M15 25 L35 15 L35 35 Z" fill="#1890ff"/>
+  <path d="M35 25 L15 35 L15 15 Z" fill="#1890ff"/>
+  
+  <!-- 文字 -->
+  <text x="50" y="32" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#1890ff">
+    FileTools
+  </text>
+</svg> 

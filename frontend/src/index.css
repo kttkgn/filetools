@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  background: #f4f6fa;
+  color: #222;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 700;
+  color: #222;
+}
+
+.container, .page-container {
+  max-width: 900px;
+  margin: 32px auto;
+  padding: 32px 24px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+}
+
+.ant-card {
+  border-radius: 16px !important;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+}
+
+.ant-btn {
+  border-radius: 8px !important;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 8px 24px;
+}
+
+.ant-input, .ant-select-selector, .ant-slider {
+  border-radius: 8px !important;
+}
+
+.ant-upload {
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .container, .page-container {
+    padding: 12px 4px;
+    margin: 8px;
+  }
+  .ant-card {
+    padding: 0 2px;
+  }
+  h1, h2, h3 {
+    font-size: 1.2em;
+  }
+}
+
+.site-layout-content {
+  min-height: 280px;
+  padding: 24px;
+  background: #fff;
+}
+
+.logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.ant-row-rtl .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+} 
