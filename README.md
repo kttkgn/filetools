@@ -102,7 +102,3 @@ file-tools/
 
 MIT License - 详见 [LICENSE](LICENSE) 文件
 
-## 联系方式
-
-- 邮箱：support@example.com
-- 网站：https://example.com 
